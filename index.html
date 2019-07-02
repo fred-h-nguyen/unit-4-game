@@ -8,8 +8,8 @@
     <title>Crystal Collector Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
@@ -28,26 +28,26 @@
     </div>
     <div id="game-box">
         <div id="rand-num-box">
-            <h2 id="random-number">120</h2>
+            <h2 id="random-number">0</h2>
         </div>
         <div id="win-lose">
             <p id=winloss> YOU LOST! </p>
-            <p>Wins:<span id="wins">1</span></p>
-            <p>Losses:<span id="losses">1</span></p>
+            <p>Wins:<span id="wins">0</span></p>
+            <p>Losses:<span id="losses">0</span></p>
         </div>
     </div>
 
     <div id="crystals">
-        <img id="gem1" src="assets/images/gem1.jpg" alt="gem1">
-        <img id="gem2" src="assets/images/gem2.jpg" alt="gem2">
-        <img id="gem3" src="assets/images/gem3.jpg" alt="gem3">
-        <img id="gem4" src="assets/images/gem4.jpg" alt="gem4">
+        <img id="gem1" class="gems" src="assets/images/gem1.jpg" alt="gem1">
+        <img id="gem2" class="gems" src="assets/images/gem2.jpg" alt="gem2">
+        <img id="gem3" class="gems" src="assets/images/gem3.jpg" alt="gem3">
+        <img id="gem4" class="gems" src="assets/images/gem4.jpg" alt="gem4">
     </div>
 
     <div id="gemscorebox">
         <p id="gemscore-title">Your total score is:</p>
         <div id="gemscore">
-            <h2 id=gemnum>120</h2>
+            <h2 id=gemnum>0</h2>
         </div>
     </div>
 </body>
