@@ -6,41 +6,106 @@ html,body {
     width: 100%;
 }
 
-#titlebox {
-    background-color: #d16920;
+body{
+    margin-left:10px;
 }
 
+#titlebox {
+    background-color: #d16920;
+    width: 25%;
+    margin-bottom: 10px;
+    
+}#titlebox h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #ffdccd;
+}
+
+
+
 #instructions {
+    display: flex;
+    flex-direction: column;
     background-color: #ffe3c6;
+    width: 50%;
+    margin-bottom: 10px;
+    
 }
 
 #instructions p {
     color: #4f8a48;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 25 px;
 }
 
 #game-box {
     display: flex;
-    width: 25%;
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+#rand-num-box {
+    width: 66%;   
+    background-color:#3cb374;
+    margin-right: 10px;
 }
 
 #random-number {
-    width: 75%;
-    height: 200px;
-    background-color:#3cb374;
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+    margin-top: 60px;
 }
 
 #win-lose {
-    width: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
     height: 200px;
     background-color:#02feff;
 }
 
+#win-lose p {
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 24px;
+        
+}
+
+#crystals{
+    width: 50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#gem1,#gem2,#gem3{
+    margin-right: 10px;
+}
+
+#gem1,#gem2,#gem3,#gem4{
+    width: 100px;
+    height:100px;
+}
+
 #gemscore-title {
     background-color: #038a8c;
+    width:30%;
+    text-align: center;
+    color: #ffdccd;
+    margin-bottom: 10px;
 }
 
 #gemscore {
     background-color: #038a8c;
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    
+}
+
+#gemnum {
+    color: #ffdccd;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
 }
