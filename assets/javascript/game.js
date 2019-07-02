@@ -44,7 +44,7 @@ $(document).ready(function () {
     }
 
     start();
-    console.log(targetNumb);
+    //console.log(targetNumb);
 
     $('#gem1').on('click', function () {
         if (gemScore < targetNumb) {
@@ -53,8 +53,8 @@ $(document).ready(function () {
             //console.log(gemScore);
         } else {
             winLoss();
-            console.log(wins);
-            console.log(losses);
+           // console.log(wins);
+            //console.log(losses);
         }
 
     });
