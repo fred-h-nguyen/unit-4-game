@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+}
+
+#titlebox {
+    background-color: #d16920;
+}
+
+#instructions {
+    background-color: #ffe3c6;
+}
+
+#instructions p {
+    color: #4f8a48;
+}
+
+#game-box {
+    display: flex;
+    width: 25%;
+}
+
+#random-number {
+    width: 75%;
+    height: 200px;
+    background-color:#3cb374;
+}
+
+#win-lose {
+    width: 25%;
+    height: 200px;
+    background-color:#02feff;
+}
+
+#gemscore-title {
+    background-color: #038a8c;
+}
+
+#gemscore {
+    background-color: #038a8c;
+    width: 200px;
+    height: 200px;
+}
